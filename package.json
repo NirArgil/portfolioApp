@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "postinstall": "cd frontend && npm install",
     "start": "nodemon --watch backend --exec node --experimental-modules server.js",
     "build": "cd frontend && npm run build"
   },
