@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import Intro from './components/intro/Intro';
-import Topbar from './components/topbar/Topbar';
+// import Topbar from './components/topbar/Topbar';
 import Projects from './components/projects/Projects';
 import Skills from './components/skills/Skills';
 import Footer from './components/footer/Footer';
