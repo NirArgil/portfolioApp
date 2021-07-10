@@ -34,6 +34,7 @@ const ContactForm = () => {
 
         console.log({ mailerState });
 
+        // eslint-disable-next-line no-unused-vars
         const response = await fetch("http://localhost:3001/send", {
             method: "POST",
             headers: {
