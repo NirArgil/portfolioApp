@@ -39,7 +39,7 @@ const ContactForm = () => {
         // eslint-disable-next-line no-unused-vars
         const response = await fetch("/send", {  
             method: "POST",
-            headers: {
+            headers: {asd
                 "Content-type": "application/json",
                 "Accept": "application/json",
             },
