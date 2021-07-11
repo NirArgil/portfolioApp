@@ -10,6 +10,7 @@ app.use(cors());
 
 let transporter = nodemailer.createTransport({
     service: "Gmail",
+    port: 465,
     auth: {
         type: "OAuth2",
         user: process.env.REACT_APP_USER_NAME,
