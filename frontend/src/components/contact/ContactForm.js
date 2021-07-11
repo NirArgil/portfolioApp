@@ -39,10 +39,11 @@ const ContactForm = () => {
         // eslint-disable-next-line no-unused-vars
         const response = await fetch("http://localhost:3001/send", {  
             method: "POST",
+            mode: "no-cors",
             headers: {
-                "Access-Control-Allow-Origin": "*",
-                "Access-Control-Allow-Methods": "POST",
-                "Access-Control-Allow-Headers": "Content-Type",
+                // "Access-Control-Allow-Origin": "*",
+                // "Access-Control-Allow-Methods": "POST",
+                // "Access-Control-Allow-Headers": "Content-Type",
                 "Content-type": "application/json",
                 
             },
