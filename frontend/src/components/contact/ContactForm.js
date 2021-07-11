@@ -35,13 +35,13 @@ const ContactForm = () => {
         console.log({ mailerState });
 
 
-       
+       //http://localhost:3001 on dev
         // eslint-disable-next-line no-unused-vars
-        const response = await fetch("/send", {  //http://localhost:3001 on dev
+        const response = await fetch("/send", {  
             method: "POST",
             headers: {
                 "Content-type": "application/json",
-                // "Accept": "application/json",
+                "Accept": "application/json",
             },
             body: JSON.stringify({ mailerState }),
         })
