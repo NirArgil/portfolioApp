@@ -42,6 +42,7 @@ const ContactForm = () => {
             headers: {
                 "Content-type": "application/json",
                 "Accept": "application/json",
+                "Access-Control-Allow-Origin": "http://localhost:3001"
             },
             body: JSON.stringify({ mailerState }),
         })
