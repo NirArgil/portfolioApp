@@ -37,9 +37,9 @@ const ContactForm = () => {
 
        //http://localhost:3001/send on dev
         // eslint-disable-next-line no-unused-vars
-        const response = await fetch("http://localhost:3001/send", {  
+        const response = await fetch("https://nirargil.netlify.app/send", {  
             method: "POST",
-            mode: "no-cors",
+            // mode: "no-cors",
             headers: {
                 // "Access-Control-Allow-Origin": "*",
                 // "Access-Control-Allow-Methods": "POST",
