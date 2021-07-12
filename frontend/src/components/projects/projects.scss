@@ -40,7 +40,7 @@
     }
 
     .container {
-        width: 70%;
+        width: 84%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -51,11 +51,11 @@
         }
 
         .item {
-            width: 220px;
-            height: 150px;
-            border-radius: 20px;
+            width: 250px;
+            height: 230px;
+            border-radius: 5px;
             border: 1px solid lightgray;
-            margin: 10px 20px;
+            margin: 20px 10px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -69,9 +69,25 @@
                 height: 100px;
             }
 
-            h3 {
+            .des {
                 position: absolute; 
-                font-size: 20px;
+                font-size: 18px;
+                // width: 210px;
+                // height: 180px;
+                h3 {
+                    margin-bottom: 70px;
+                    margin-top: 30px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: white;
+
+                   
+                }
+                .live {
+                    margin-right: 30px;
+                }
             }
 
             &:hover {

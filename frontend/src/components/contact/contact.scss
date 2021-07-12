@@ -1,29 +1,31 @@
 @import '../../global.scss';
 
 .contact {
-    height: 140vh;
-    display: flex;
-    // align-items: center;
-    // background-image: url(../../img/appExample2.jpg);
-    background-size: cover;
-    background-position: center right;
+  height: 140vh;
+  display: flex;
+  // align-items: center;
+  // background-image: url(../../img/appExample2.jpg);
+  background-size: cover;
+  background-position: center right;
 
-    justify-content: center;  
-}
+  justify-content: center;
 
-h1 {
+  h1 {
     font-size: 50px;
     margin-top: 30px;
     margin-bottom: 75px;
-    font-weight: 400;  
+    font-weight: 400;
     display: flex;
-    justify-content: center; 
-    
+    justify-content: center;
+
     @include mobile {
-        margin-bottom: 50px;
-        font-size: 20px;
+      margin-bottom: 50px;
+      font-size: 20px;
     }
+  }
 }
+
+
 
 .contactwrap {
   width: 95%;
@@ -88,7 +90,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.contactin p{
+.contactin p {
   margin-left: 50px;
 }
 
@@ -155,12 +157,12 @@ h1 {
   .contactin:nth-child(1) {
     flex: 50%;
   }
-  
+
   .contactin:nth-child(2) {
     flex: 50%;
   }
-  
-//   .contactin:nth-child(3) {
-//     flex: 100%;
-//   }
+
+  //   .contactin:nth-child(3) {
+  //     flex: 100%;
+  //   }
 }

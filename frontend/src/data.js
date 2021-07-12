@@ -30,49 +30,89 @@ export const featuredPortfolio = [
     },
 ];
 
-export const webPortfolio = [
+export const webAppsPortfolio = [
     {
         id: 1,
-        title: 'webContent1',
-        img: " ",
+        title: 'Scart - Ecommerce App',
+        img: "/assets/scart.gif",
+        site: "https://scart.herokuapp.com/",
+        github: "https://github.com/NirArgil/ScartAppMERN",
     },
 
     {
         id: 2,
-        title: 'webContent2',
-        img: " ",
+        title: 'VCA - Video Chat App',
+        img: "/assets/vca.gif",
+        site: "https://vca.netlify.app",
+        github: "https://github.com/NirArgil/VideoChatApp",
     },
 
     {
         id: 3,
-        title: 'webContent3',
-        img: " ",
+        title: 'International Weather App',
+        img: "/assets/weather.gif",
+        site: "https://nirweather.netlify.app/",
+        github: "https://github.com/NirArgil/WeatherApp",
     },
 
     {
         id: 4,
-        title: 'webContent4',
-        img: " ",
+        title: 'Finance Guard App',
+        img: "/assets/fg.gif",
+        site: "https://financeguard.herokuapp.com/",
+        github: "https://github.com/NirArgil/FinanceGuard",
+    },
+
+    // {
+    //     id: 5,
+    //     title: 'webappsContent5',
+    //     img: " ",
+    // },
+];
+
+export const websitesPortfolio = [
+    {
+        id: 1,
+        title: '',
+        img: "/assets/raphael.png",
+        site: "https://www.raphaelframes.com/",
     },
 
     {
-        id: 5,
-        title: 'webContent5',
-        img: " ",
+        id: 2,
+        title: '',
+        img: "/assets/casa.png",
+        site: "https://www.casadevital.com/",
     },
+
+    // {
+    //     id: 3,
+    //     title: 'websitesContent3',
+    //     img: " ",
+    // },
+
+    // {
+    //     id: 4,
+    //     title: 'websitesContent4',
+    //     img: " ",
+    // },
+
 ];
 
 export const mobilePortfolio = [
     {
         id: 1,
-        title: 'mobileContent1',
-        img: " ",
+        title: 'Raphael Art Gallery',
+        img: "",
+        site: "https://www.raphaelframes.com/",
+
     },
 
     {
         id: 2,
         title: 'mobileContent2',
         img: " ",
+        site: "https://financeguard.herokuapp.com/",
     },
 
     {
@@ -90,38 +130,6 @@ export const mobilePortfolio = [
     {
         id: 5,
         title: 'mobileContent5',
-        img: " ",
-    },
-];
-
-export const designPortfolio = [
-    {
-        id: 1,
-        title: 'designContent1',
-        img: " ",
-    },
-
-    {
-        id: 2,
-        title: 'designContent2',
-        img: " ",
-    },
-
-    {
-        id: 3,
-        title: 'designContent3',
-        img: " ",
-    },
-
-    {
-        id: 4,
-        title: 'designContent4',
-        img: " ",
-    },
-
-    {
-        id: 5,
-        title: 'designContent5',
         img: " ",
     },
 ];

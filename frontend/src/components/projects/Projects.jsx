@@ -3,65 +3,66 @@ import ProjectsList from '../projectsList/ProjectsList.jsx';
 import './projects.scss';
 
 import {
-    featuredPortfolio,
-    webPortfolio,
-    mobilePortfolio,
-    designPortfolio,
-    contentPortfolio,
+    // featuredPortfolio,
+    webAppsPortfolio,
+    // mobilePortfolio,
+    websitesPortfolio,
+    // contentPortfolio,
 } from "../../data.js";
 
 export default function Projects() {
-    const [selected, setSelected] = useState("featured");
+    const [selected, setSelected] = useState("webapps");
     const [data, setData] = useState([]);
 
     const list = [
+        // {
+        //     id: 'featured',
+        //     title: 'Featured'
+        // },
+
         {
-            id: 'featured',
-            title: 'Featured'
+            id: 'webapps',
+            title: 'Web Apps'
         },
 
         {
-            id: 'web',
-            title: 'Web App'
+            id: 'websites',
+            title: 'Websites'
         },
 
-        {
-            id: 'mobile',
-            title: 'Mobile App'
-        },
 
-        {
-            id: 'design',
-            title: 'Design'
-        },
+        // {
+        //     id: 'mobile',
+        //     title: 'Mobile App'
+        // },
 
-        {
-            id: 'content',
-            title: 'Content'
-        },
+        // {
+        //     id: 'content',
+        //     title: 'Content'
+        // },
 
     ];
 
     useEffect(() => {
         switch (selected) {
-            case "featured":
-                setData(featuredPortfolio);
+            // case "featured":
+            //     setData(featuredPortfolio);
+            //     break;
+            case "webapps":
+                setData(webAppsPortfolio);
                 break;
-            case "web":
-                setData(webPortfolio);
+            // case "mobile":
+            //     setData(mobilePortfolio);
+            //     break;
+            case "websites":
+                setData(websitesPortfolio);
                 break;
-            case "mobile":
-                setData(mobilePortfolio);
-                break;
-            case "design":
-                setData(designPortfolio);
-                break;
-            case "content":
-                setData(contentPortfolio);
-                break;
-                
+            // case "content":
+            //     setData(contentPortfolio);
+            //     break;
+
             default:
-                setData(featuredPortfolio);
+                setData(webAppsPortfolio);
         }
     }, [selected]);
 
@@ -81,11 +82,15 @@ export default function Projects() {
             <div className="container">
                 {data.map((d) => (
                     <div className="item">
-                        <img
+                        <img className="Pimg"
                             src={d.img}
                             alt=""
                         />
-                        <h3>{d.title}</h3>
+                        <div className="des">
+                            <h3>{d.title}</h3>
+                            <a className="live" href={d.site} target="_blank" rel="noopener noreferrer">Live Version</a>
+                            <a href={d.github} target="_blank" rel="noopener noreferrer">Source Code</a>
+                        </div>
                     </div>
                 ))}
             </div>

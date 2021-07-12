@@ -1,4 +1,10 @@
-footer { 
-    background-color: lightgreen;
-    height: 100px!important;
+footer {
+    background-color: rgb(49, 49, 49);
+    height: 100px !important;
+    text-align: center;
+
+    span {
+        position: relative;
+        top: 50px;
+    }
 }
