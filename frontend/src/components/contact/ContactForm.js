@@ -15,7 +15,7 @@ const ContactForm = () => {
         sent: false,
         err: ''
     });
-    
+
     // eslint-disable-next-line no-unused-vars
     function handleStateChange(e) {
         setMailerState((prevState) => ({
@@ -121,7 +121,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="contactin">
-                    <form name="contactEmail" method="POST" data-netlify="true">
+                    <form name="contact" method="POST" data-netlify="true">
                     <label>Your Email: <input type="email" name="email" /></label>
                         <button type="submit" >Send</button>
                     </form> 
