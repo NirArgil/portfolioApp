@@ -120,7 +120,7 @@ const ContactForm = () => {
                 </div>
 
                 <div className="contactin">
-                    <form netlify>
+                    <form name="contactEmail" method="POST" data-netlify="true">
                         <input required type="text" className="contactin-input" placeholder="Full Name" name="name" value={mailerState.name} onChange={handleStateChange} />
                         <input required type="text" className="contactin-input" placeholder="Phone Number" name="phone" value={mailerState.phone} onChange={handleStateChange} />
                         <input required type="email" className="contactin-input" placeholder="Email" name="email" value={mailerState.email} onChange={handleStateChange} />
