@@ -15,7 +15,8 @@ const ContactForm = () => {
         sent: false,
         err: ''
     });
-
+    
+    // eslint-disable-next-line no-unused-vars
     function handleStateChange(e) {
         setMailerState((prevState) => ({
             ...prevState,
