@@ -23,7 +23,7 @@ const ContactForm = () => {
         }));
     }
 
-
+    // eslint-disable-next-line no-unused-vars
     const submitEmail = async (e) => {
         e.preventDefault();
 
