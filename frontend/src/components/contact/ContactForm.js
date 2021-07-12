@@ -39,6 +39,7 @@ const ContactForm = () => {
         // eslint-disable-next-line no-unused-vars
         const response = await fetch("/api/send", {  
             method: "POST",
+            port: 465,
             headers: {
                 "Access-Control-Allow-Origin": "*",
                 // "Access-Control-Allow-Methods": "POST",
