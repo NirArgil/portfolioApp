@@ -120,15 +120,15 @@ const ContactForm = () => {
                 </div>
 
                 <div className="contactin">
-                    <form action="/send">
+                    <form netlify>
                         <input required type="text" className="contactin-input" placeholder="Full Name" name="name" value={mailerState.name} onChange={handleStateChange} />
                         <input required type="text" className="contactin-input" placeholder="Phone Number" name="phone" value={mailerState.phone} onChange={handleStateChange} />
                         <input required type="email" className="contactin-input" placeholder="Email" name="email" value={mailerState.email} onChange={handleStateChange} />
                         <textarea className="contactin-textarea" name="message" placeholder="Message" value={mailerState.message} onChange={handleStateChange}></textarea>
-                        <button type="submit" value="Submit" className="contactin-btn" onClick={submitEmail}>{mailerState.buttonText}</button>
-                    </form>
+                        <button type="submit" value="Submit" className="contactin-btn" >Send</button>
+                    </form> 
                 </div>
-
+                {/* onClick={submitEmail} */}
 
                 {/* <div className="contactin">
                 <iframe title="Gmaps" frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
