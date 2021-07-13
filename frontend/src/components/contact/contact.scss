@@ -187,6 +187,8 @@
     resize: none;
   }
 
+
+
   .container .row100 .col button {
     position: relative;
     left: 140px;
@@ -200,18 +202,22 @@
     font-size: 18px;
     border-radius: 2px;
 
-    .successBtn {
-      color: green;
-    }
-
-    .faileBtn {
-      color: red;
-    }
+    
     @include mobile {
       position: relative;
       left: 50px;
     }
   }
+
+
+  #successBtn {
+    color: rgb(28, 28, 194);
+  }
+  
+  // #failBtn {
+  //   color: red;
+  // }
+
 }
 
 // .contact {
