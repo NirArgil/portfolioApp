@@ -80,19 +80,19 @@ const ContactForm = () => {
                 <div className="contactItems">
                     <span className="iContact">
                         <i class="fa fa-phone-alt" aria-hidden="true"></i>
-                    </span> 
+                    </span>
 
                     <p>+972 54-6334554</p>
 
                     <span className="iContact">
                         <i class="fas fa-map-pin" aria-hidden="true"></i>
-                    </span> 
+                    </span>
 
                     <p>Central, Israel</p>
                 </div>
 
 
-                
+
                 <div className="row100">
                     <div className="col">
                         <div className="inputBox">
@@ -136,7 +136,13 @@ const ContactForm = () => {
 
                 <div className="row100">
                     <div className="col">
-                        <button type="submit" value="sendNow" onClick={formSubmit}>{data.buttonText}</button>
+                        <button
+                            type="submit"
+                            // value="sendNow"
+                            onClick={formSubmit}
+                            className={data.sent ? "successBtn" : "failBtn"}>
+                            {data.buttonText}
+                        </button>
                     </div>
                 </div>
 
@@ -164,16 +170,16 @@ const ContactForm = () => {
         //         </div>
 
 
-         /* <div className="contactin">
-        <iframe title="Gmaps" frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
-            src={API_URL} ></iframe>
-    </div>  */
+        /* <div className="contactin">
+       <iframe title="Gmaps" frameborder="0" loading="lazy" allowfullscreen width="100%" height="auto"
+           src={API_URL} ></iframe>
+   </div>  */
 
 
 
 
-            /* </div>
-         </div> */
+        /* </div>
+     </div> */
     );
 };
 

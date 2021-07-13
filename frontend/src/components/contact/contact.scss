@@ -200,6 +200,13 @@
     font-size: 18px;
     border-radius: 2px;
 
+    .successBtn {
+      color: green;
+    }
+
+    .faileBtn {
+      color: red;
+    }
     @include mobile {
       position: relative;
       left: 50px;
