@@ -65,7 +65,7 @@ const ContactForm = () => {
             phone: '',
             message: '',
             sent: false,
-            buttonText: 'Send Message',
+            buttonText: 'Send a Message',
             err: ''
         });
     }
