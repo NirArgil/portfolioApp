@@ -8,13 +8,17 @@
     flex-direction: column;
     align-items: center;
 
+    @include mobile {
+        height: 145vh;
+    }
+
     h1 {
         font-size: 50px;
         margin-top: 30px;
         font-weight: 400;
 
         @include mobile {
-            font-size: 20px;
+            font-size: 30px;
 
         }
     }
@@ -45,6 +49,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        border: none;
 
         @include mobile {
             width: 100%;
@@ -65,28 +70,37 @@
             cursor: pointer;
 
             @include mobile {
-                width: 130px;
-                height: 100px;
+                width: 210px;
+                height: 140px;
+                margin: 10px 10px;
             }
 
             .des {
                 position: absolute; 
                 font-size: 18px;
-                // width: 210px;
-                // height: 180px;
+               
                 h3 {
                     margin-bottom: 70px;
                     margin-top: 30px;
+
+                    @include mobile {
+                     margin-bottom: 45px;
+                     margin-top: 0px;
+                     font-size: 16px;
+                    }
                 }
 
                 a {
                     text-decoration: none;
                     color: white;
-
-                   
+                   font-size: 14px;
                 }
                 .live {
                     margin-right: 30px;
+
+                    @include mobile {
+                        margin-right: 10px; 
+                    }                   
                 }
             }
 

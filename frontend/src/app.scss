@@ -3,27 +3,40 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    overflow-x: hidden;
+    padding: 0;
+    box-sizing: border-box;
+    
     scroll-behavior: smooth;
 }
 
 .app {
     height: 100%;
     background-image: url(./img/b.jpg);
-
+    overflow-x: hidden;
     background-size: cover;
 
     background-attachment: fixed;
 
     .socials {
         position: fixed;
-        width: 100px;
+        // width: 100px;
         height: 700px;
-        top: 430px;
-        left: 21px;
+        top: 410px;
+        left: 5px;
+
+        @include mobile {
+            position: absolute;
+            top: 320px;
+            left: -14px;
+
+        }
 
         .ulSocials {
             margin-bottom: 10px;
+            list-style-type: none;
+            position: relative;
+            left: 41px;
+            
 
             li {
                 margin-top: 5px;
@@ -91,9 +104,12 @@
             align-items: center;
             justify-content: space-between;
 
-            .left {
-                margin-left: 30px;
+            @include mobile {
+                padding: 14px 10px;
+            }
 
+            .left {
+         
                 .logo {
                     img {
                         width: 61px;
@@ -103,7 +119,7 @@
             }
 
             .right {
-                margin-right: 25px;
+                // margin-right: 25px;
             }
 
             .hamburger {
@@ -123,6 +139,7 @@
                 }
             }
         }
+
         &.active {
             // background-color: #15023a;
             color: white;

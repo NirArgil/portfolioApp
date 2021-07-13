@@ -1,4 +1,3 @@
-import './contact.scss';
 import ContactForm from './ContactForm';
 
 export default function Contact() {
