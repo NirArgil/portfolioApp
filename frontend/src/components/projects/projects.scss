@@ -93,8 +93,19 @@
                 a {
                     text-decoration: none;
                     color: white;
-                   font-size: 14px;
+                    font-size: 14px;
                 }
+
+                // a:hover {
+                //     text-decoration: underline;
+                //     text-decoration-color: white;
+                //     // text-decoration-style: ;
+                //     // border: 1px soild white;
+                //     // width: 50%;    
+                //    }
+
+
+
                 .live {
                     margin-right: 30px;
 
@@ -106,6 +117,8 @@
 
             &:hover {
                 background-color: #15023a;
+                cursor: default;
+
                 .Pimg {
                     opacity: 0.2;
                     z-index: 0;

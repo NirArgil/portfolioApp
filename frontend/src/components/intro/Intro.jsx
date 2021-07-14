@@ -27,7 +27,7 @@ export default function Intro() {
             {/* <div className="right"> */}
                 <div className="wrapper">
                     <h1>Nir Argil</h1>
-                    <h3> Fullstack Web <span ref={textRef}></span> </h3>
+                    <h3>Fullstack Web <span ref={textRef}></span> </h3>
                 </div>
                 <a href="#projects">
                     <span id="icon"></span>
