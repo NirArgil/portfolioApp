@@ -29,6 +29,7 @@
         height: 360px;
         display: flex;
 
+        box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
         background:  white;
         border-radius: 3px;
         align-items: center;
@@ -38,8 +39,11 @@
 
         @include mobile {
             height: 340px;
+            margin-top: 50px;
             background:  none;
             border-radius: none;
+            box-shadow: none;
+
         }
 
         img {

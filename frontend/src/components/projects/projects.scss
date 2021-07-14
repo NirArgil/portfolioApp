@@ -9,7 +9,7 @@
     align-items: center;
 
     @include mobile {
-        height: 145vh;
+        height: 111vh;
     }
 
     h1 {
@@ -72,7 +72,7 @@
             @include mobile {
                 width: 210px;
                 height: 140px;
-                margin: 10px 10px;
+                margin: 20px 10px;
             }
 
             .des {
