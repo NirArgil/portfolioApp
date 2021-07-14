@@ -77,7 +77,7 @@ export default function Intro() {
                 <span className="lineSocials"></span>
             </div>
 
-            <img className="monitors" src="/assets/m9.png" alt="monitors"></img>
+            <img className="monitors" src="/assets/m9.png" alt="monitors"></img>    
 
             <div className="wrapperDetails">
                 <h1>Nir Argil</h1>
