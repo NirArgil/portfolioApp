@@ -59,7 +59,6 @@ export default function Intro() {
                         <a href="https://www.linkedin.com/in/nir-argil-158815185/" target="_blank" rel="noopener noreferrer">
                             <RiLinkedinBoxFill className="linkedin" />
                         </a>
-
                     </li>
 
                     <li>
