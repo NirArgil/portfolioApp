@@ -3,13 +3,13 @@
 .projects {
     background-color: white;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     @include mobile {
-        height: 111vh;
+        min-height: 111vh;
     }
 
     h1 {
