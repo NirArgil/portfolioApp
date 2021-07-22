@@ -28,7 +28,7 @@ exports.handler = function (event, context, callback) {
         to: process.env.REACT_APP_USER_NAME,
         subject: `Contact Form`,
         html: `
-            <h3>Email from ${data.name}, <br>
+            <h3>PORTFOLIO Nir Email from ${data.name}, <br>
             Email: ${data.email}<h3>.
             Phone num: ${data.phone} <br>
             Message:
