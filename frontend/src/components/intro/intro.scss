@@ -12,7 +12,7 @@
         // width: 100px;
         top: 410px;
         left: 5px;
-
+        
         @include mobile {
             position: absolute; 
             top: calc(100vh - 230px);
@@ -28,6 +28,7 @@
 
             li {
                 margin-top: 5px;
+                
             }
 
         }
@@ -104,10 +105,6 @@
                         height: 61px;
                     }
                 }
-            }
-
-            .right {
-                // margin-right: 25px;
             }
 
             .hamburger {
@@ -209,8 +206,6 @@
             font-size: 32px;
             font-weight: 400;
             color: #010527;
-            // color: #f5f5f5;
-
 
             @include mobile {
                 font-size: 20px;
