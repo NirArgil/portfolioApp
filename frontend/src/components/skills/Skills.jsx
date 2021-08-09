@@ -1,5 +1,4 @@
 import './skills.scss';
-import Tooltip from '@material-ui/core/Tooltip';
 
 export default function Skills() {
 
