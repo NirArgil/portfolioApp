@@ -82,10 +82,15 @@ export default function Projects() {
             <div className="container">
                 {data.map((d) => (
                     <div className="item">
-                        <img className="Pimg"
+                        {/* <img className="Pimg"
                             src={d.img}
                             alt=""
-                        />
+                        /> */}
+
+                        <video autoPlay loop muted playsInline>
+                            <source type="video/webm" src={d.img} />
+                            {/* <img src="/assets/ps.png" alt="asd" /> */}
+                        </video>
 
                         <div className="des">
                             <h3>{d.title}</h3>

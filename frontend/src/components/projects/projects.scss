@@ -69,6 +69,13 @@
             transition: all 0.5s ease; 
             cursor: pointer;
 
+            video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                z-index: 1;
+            }
+
             @include mobile {
                 width: 210px;
                 height: 140px;
@@ -119,7 +126,7 @@
                 background-color: #15023a;
                 cursor: default;
 
-                .Pimg {
+                video {
                     opacity: 0.2;
                     z-index: 0;
                 } 
