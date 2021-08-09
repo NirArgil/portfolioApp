@@ -49,7 +49,7 @@ export const webAppsPortfolio = [
 
     {
         id: 3,
-        title: 'International Weather App',
+        title: 'Dynamic Weather App',
         img: "/assets/weather.webm",
         site: "https://nirweather.netlify.app/",
         github: "https://github.com/NirArgil/WeatherApp",
