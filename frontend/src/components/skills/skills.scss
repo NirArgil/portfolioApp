@@ -30,7 +30,7 @@
         display: flex;
 
         box-shadow: 0 25px 45px rgba(0, 0, 0, 0.3);
-        background:  white;
+        background: white;
         border-radius: 3px;
         align-items: center;
         justify-content: center;
@@ -40,14 +40,14 @@
         @include mobile {
             height: 340px;
             margin-top: 50px;
-            background:  none;
+            background: none;
             border-radius: none;
             box-shadow: none;
 
         }
 
         img {
-            margin-right: 30px;
+            // margin-right: 30px;
             width: 48px;
             height: 48px;
 
@@ -58,9 +58,9 @@
 
         .front {
             width: 100%;
+            height: 140px;
             display: flex;
             justify-content: center;
-            align-items: center;
 
             @include mobile {
                 margin-bottom: 75px;
@@ -68,20 +68,41 @@
 
             .title {
                 position: relative;
-                right: 10%;
+                right: 5%;
+                display: flex;
+                align-items: center;
 
                 @include mobile {
                     display: none;
                 }
             }
 
+            .skillDiv {
+                text-align: center;
+                margin-top: 25px;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                p {
+                    font-size: 14px;
+                }
+
+                @include mobile {
+                    margin: 3px 1px;
+    
+                    p {
+                        font-size:  10px;
+                    } 
+                }
+            }
         }
 
         .back {
             width: 100%;
+            height: 70px;
             display: flex;
             justify-content: center;
-            align-items: center;
+
 
             @include mobile {
                 margin-bottom: 75px;
@@ -89,18 +110,38 @@
 
             .title {
                 position: relative;
-                right: 10%;
+                right: 21%;
+                display: flex;
+                align-items: center;
 
                 @include mobile {
                     display: none;
                 }
             }
 
-            P {
-                margin: 0 30px;
-                cursor: default;
+            .skillDiv {
+                text-align: center;
+                margin-top: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                p {
+                    font-size: 14px;
+                }
+
+                @include mobile {
+                    margin: 3px 1px;
+
+                    p {
+                        font-size: 10px;
+                    }
+                }
             }
 
+            .P {
+                margin: 18px 30px 0;
+                cursor: default;
+            }
         }
 
         .more {
@@ -111,11 +152,31 @@
 
             .title {
                 position: relative;
-                right: 10%;
+                right: 3%;
 
                 @include mobile {
                     display: none;
                 }
+            }
+
+            .skillDiv {
+                text-align: center;
+                margin-top: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
+
+                p {
+                    font-size: 14px;
+                }
+
+                @include mobile {
+                    margin: 3px 1px;
+
+                    p {
+                        font-size: 10px;
+                    }
+                }
+
             }
 
         }

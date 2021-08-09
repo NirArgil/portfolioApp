@@ -10,87 +10,112 @@ export default function Skills() {
             <div className="container">
                 <div className="front">
                     <span className="title"> <h2>Frontend</h2> </span>
-                    <Tooltip placement="top" title="HTML5" >
+                    <div className="skillDiv">
                         <img src="/assets/htmlicon.png" alt="htmlicon" />
-                    </Tooltip>
+                        <p>HTML5</p>
+                    </div>
 
-                    <Tooltip placement="top" title="CSS3 and Sass">
+                    <div className="skillDiv">
                         <img src="/assets/css.png" alt="cssicon" />
-                    </Tooltip>
+                        <p>CSS</p>
+                        <p>and SCSS/Sass</p>                      
+                    </div>
 
-                    <Tooltip placement="top" title="JavaScript">
+                    <div className="skillDiv">
                         <img src="/assets/jsicon.png" alt="jsicon" />
-                    </Tooltip>
+                        <p>JavaScript</p>
+                    </div>
 
-                    <Tooltip placement="top" title="ReactJS">
+                    <div className="skillDiv">
                         <img src="/assets/react.png" alt="reacticon" />
-                    </Tooltip>
+                        <p>React, </p>
+                        <p>React Native, </p>
+                        <p>Hooks, </p>
+                        <p>Redux</p>
+                    </div>
 
-                    <Tooltip placement="top" title="jQuery">
+                    <div className="skillDiv">
                         <img src="/assets/jquery.png" alt="jqueryicon" />
-                    </Tooltip>
+                        <p>jQuery</p>
+                    </div>
 
-                    <Tooltip placement="top" title="TypeScript">
+                    <div className="skillDiv">
                         <img src="/assets/ts.png" alt="tsicon" />
-                    </Tooltip>
+                        <p>TypeScript</p>
+                    </div>
 
-                    <Tooltip placement="top" title="Bootstrap">
+                    <div className="skillDiv">
                         <img src="/assets/bootstrap.png" alt="bootstrapicon" />
-                    </Tooltip>
+                        <p>Bootstrap</p>
+                    </div>
 
-                    <Tooltip placement="top" title="MaterialUI">
+                    <div className="skillDiv">
                         <img src="/assets/mui.png" alt="muicons" />
-                    </Tooltip>
+                        <p>MaterialUI</p>
+                    </div>
 
                 </div>
 
                 <div className="back">
                     <span className="title"> <h2>Backend</h2> </span>
 
-                    <Tooltip placement="left" title="NodeJS">
+                    <div className="skillDiv">
                         <img src="/assets/node.png" alt="nodeicon" />
-                    </Tooltip>
+                        <p>NodeJS</p>
+                        
+                    </div>
 
-                    <Tooltip placement="top" title="ExpressJS">
-                        <p>ExpressJS</p>
-                    </Tooltip>
+                    <div className="skillDiv">
+                        <p className="P">ExpressJS</p>
+                    </div>
 
-                    <Tooltip placement="right" title="MongoDB">
+                    <div className="skillDiv">
                         <img src="/assets/mdb.png" alt="monicon" />
-                    </Tooltip>
+                        <p>MongoDB</p>
+                    </div>
                 </div>
 
                 <div className="more">
-                    <span className="title"> 
-                        <h2>More</h2> 
+                    <span className="title">
+                        <h2>More</h2>
                     </span>
-                    <Tooltip placement="top" title="Git">
+                    <div className="skillDiv">
                         <img src="/assets/git.png" alt="giticon" />
-                    </Tooltip>
-                    <Tooltip placement="top" title="REST">
+                        <p>Git Version Control</p>
+                        <p>GitHub</p>
+                    </div>
+
+                    <div className="skillDiv">
                         <img src="/assets/rest.png" alt="resticon" />
-                    </Tooltip>
-                   
-                   <Tooltip placement="top" title="GraphQL">
+                        <p>work with APIs</p>
+                        <p>REST API</p>
+                    </div>
+
+                    <div className="skillDiv">
+                        <img src="/assets/pm.png" alt="pmicon" />
+                        <p>Postman</p>
+                    </div>
+
+                    <div className="skillDiv">
                         <img src="/assets/graph.png" alt="graphicon" />
-                   </Tooltip>
+                        <p>GraphQL</p>
+                    </div>
 
-                   <Tooltip placement="top" title="Photoshop">
+                    <div className="skillDiv">
                         <img src="/assets/ps.png" alt="psicon" />
-                   </Tooltip>
+                        <p>Photoshop</p>
+                    </div>
 
-                   <Tooltip placement="top" title="npm">
+                    <div className="skillDiv">
                         <img src="/assets/npm.png" alt="npmicon" />
-                   </Tooltip>
+                        <p>NPM workflow</p>
+                    </div>
 
-                   <Tooltip placement="top" title="VSCode">
-                       <img src="/assets/vs.png" alt="vsicon" />
-                   </Tooltip>
+                    <div className="skillDiv">
+                        <img src="/assets/vs.png" alt="vsicon" />
+                        <p>main IDE development by VS Code</p>
+                    </div>
 
-                   <Tooltip placement="top" title="Postman">
-                         <img src="/assets/pm.png" alt="pmicon" />
-                   </Tooltip>
-                    
                 </div>
             </div>
         </div>
