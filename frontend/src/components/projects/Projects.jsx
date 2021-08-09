@@ -86,6 +86,7 @@ export default function Projects() {
                             src={d.img}
                             alt=""
                         />
+
                         <div className="des">
                             <h3>{d.title}</h3>
                             <a className="live" href={d.site} target="_blank" rel="noopener noreferrer">Live Version</a>
