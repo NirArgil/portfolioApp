@@ -87,7 +87,7 @@ export default function Projects() {
                             alt=""
                         /> */}
 
-                        <video autoPlay loop muted playsInline>
+                        <video playsInline autoPlay loop muted>
                             <source type="video/webm" src={d.img} />
                             {/* <img src="/assets/ps.png" alt="asd" /> */}
                         </video>
