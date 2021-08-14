@@ -34,7 +34,7 @@ export const webAppsPortfolio = [
     {
         id: 1,
         title: 'Scart - Ecommerce App',
-        img: "/assets/scart.webm",
+        img: "/assets/scart.gif",
         site: "https://scart.herokuapp.com/",
         github: "https://github.com/NirArgil/ScartAppMERN",
     },
@@ -42,7 +42,7 @@ export const webAppsPortfolio = [
     {
         id: 2,
         title: 'VCA - Video Chat App',
-        img: "/assets/vcavideo.webm",
+        img: "/assets/vcavideo.gif",
         site: "https://vca.netlify.app",
         github: "https://github.com/NirArgil/VideoChatApp",
     },
@@ -50,7 +50,7 @@ export const webAppsPortfolio = [
     {
         id: 3,
         title: 'Dynamic Weather App',
-        img: "/assets/weather.webm",
+        img: "/assets/weather.gif",
         site: "https://nirweather.netlify.app/",
         github: "https://github.com/NirArgil/WeatherApp",
     },
@@ -58,7 +58,7 @@ export const webAppsPortfolio = [
     {
         id: 4,
         title: 'Finance Guard App',
-        img: "/assets/fg.webm",
+        img: "/assets/fg.gif",
         site: "https://financeguard.herokuapp.com/",
         github: "https://github.com/NirArgil/FinanceGuard",
     },
