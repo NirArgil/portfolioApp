@@ -8,8 +8,6 @@
     
     scroll-behavior: smooth;
 
-
-
     scrollbar-width: none;
     &::-webkit-scrollbar {
             display: none;
@@ -25,6 +23,10 @@
     background-position:  center bottom;
     background-attachment: fixed;
     background-repeat: no-repeat;
+
+    @include mobile {
+        background-attachment: scroll;
+    }
 
     .sections {
         width: 100%;
