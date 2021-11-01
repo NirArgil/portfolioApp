@@ -68,7 +68,7 @@
 
             .title {
                 position: relative;
-                right: 5%;
+                right: 9%;
                 display: flex;
                 align-items: center;
 
@@ -110,7 +110,7 @@
 
             .title {
                 position: relative;
-                right: 21%;
+                right: calc(25% - 10px);
                 display: flex;
                 align-items: center;
 
