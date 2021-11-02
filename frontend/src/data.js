@@ -89,7 +89,7 @@ export const websitesPortfolio = [
         id: 3,
         title: 'Mila Productions',
         img: "/assets/mila.png",
-        site: "https://www.milaprod.netlify.com/"
+        site: "https://milaprod.netlify.com/"
     },
 
     // {
