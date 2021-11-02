@@ -85,11 +85,12 @@ export const websitesPortfolio = [
         site: "https://www.casadevital.com/",
     },
 
-    // {
-    //     id: 3,
-    //     title: 'websitesContent3',
-    //     img: " ",
-    // },
+    {
+        id: 3,
+        title: 'Mila Productions',
+        img: "/assets/mila.png",
+        site: "https://www.milaprod.netlify.com"
+    },
 
     // {
     //     id: 4,
