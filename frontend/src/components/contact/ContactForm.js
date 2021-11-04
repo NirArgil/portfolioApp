@@ -140,7 +140,7 @@ const ContactForm = () => {
                             type="submit"
                             // value="sendNow"
                             onClick={formSubmit}
-                            id={data.sent ? "successBtn" : "failBtn" }>
+                            className="submitBtn">
                             {data.buttonText}
                         </button>
                     </div>
