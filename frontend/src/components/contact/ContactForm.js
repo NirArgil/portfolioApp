@@ -41,7 +41,7 @@ const ContactForm = () => {
                     setData({
                         ...data,
                         sent: true,
-                        buttonText: "Message Sent Successfully",
+                        buttonText: "Message Sent",
                         err: 'success'
                     })
                     setTimeout(() => {
