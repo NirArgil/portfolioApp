@@ -19,11 +19,24 @@ const ContactForm = () => {
 
     const formSubmit = (e) => {
         e.preventDefault();
+ 
 
-        setData({
+        if (data.name == "" || data.email == "" || data.phone == "" || data.message == "" ) {
+            setData({
+                ...data,
+                buttonText: 'Please fill all the fields',
+                sent: false,
+                err: 'fail'
+            })
+            setTimeout(() => {
+                resetForm()
+            }, 3000)
+        } else {
+            setData({
             ...data,
             buttonText: "Is sending..."
         })
+        
 
         axios.post('/api/sendmail', data)
             .then(res => {
@@ -55,7 +68,7 @@ const ContactForm = () => {
                     buttonText: "Failed, Try Again",
                     err: 'fail'
                 })
-            })
+            })}
     }
 
     const resetForm = () => {
