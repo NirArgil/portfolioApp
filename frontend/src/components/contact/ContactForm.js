@@ -20,7 +20,7 @@ const ContactForm = () => {
     const formSubmit = (e) => {
         e.preventDefault();
  
-
+ // eslint-disable-next-line
         if (data.name == "" || data.email == "" || data.phone == "" || data.message == "" ) {
             setData({
                 ...data,
