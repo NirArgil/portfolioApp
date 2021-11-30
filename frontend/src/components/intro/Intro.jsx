@@ -56,7 +56,7 @@ export default function Intro() {
                 <ul className="ulSocials">
 
                     <li>
-                        <a href="https://www.linkedin.com/in/nir-argil-158815185/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/nir-argil/" target="_blank" rel="noopener noreferrer">
                             <RiLinkedinBoxFill className="linkedin" />
                         </a>
                     </li>
