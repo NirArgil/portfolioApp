@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { init } from 'ityped'
 
 //icons
@@ -6,12 +6,12 @@ import { FiMail } from 'react-icons/fi';
 import { RiLinkedinBoxFill } from 'react-icons/ri';
 import { FaGithub } from 'react-icons/fa';
 
-import Menu from '../menu/Menu';
+// import Menu from '../menu/Menu';
 
 import './intro.scss'
 
 export default function Intro() {
-    const [menuOpen, setMenuOpen] = useState(false);
+    // const [menuOpen, setMenuOpen] = useState(false);
 
     const textRef = useRef();
 
