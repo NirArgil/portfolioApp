@@ -30,7 +30,7 @@ export default function Intro() {
     return (
         <div className="intro" id="intro">
 
-            <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+            {/* <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
 
             <div className={"topbar " + (menuOpen && "active")}>
 
@@ -41,13 +41,13 @@ export default function Intro() {
                         </a>
                     </div>
 
-                    <div className="right">
+                    {/* <div className="right">
                         <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
                             <span className="line1"></span>
                             <span className="line2"></span>
                             <span className="line3"></span>
                         </div>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
