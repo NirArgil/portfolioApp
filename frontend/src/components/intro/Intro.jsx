@@ -31,8 +31,8 @@ export default function Intro() {
         <div className="intro" id="intro">
 
             {/* <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
-
-            <div className={"topbar " + (menuOpen && "active")}>
+            {/* <div className={"topbar " + (menuOpen && "active")}> */}
+            <div className={"topbar "}>
 
                 <div className="wrapper">
                     <div className="left">
